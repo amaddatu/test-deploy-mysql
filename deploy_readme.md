@@ -44,6 +44,10 @@
 
 19. Update the project to use the Jawsdb info.
 
-20. (re-deploy)
+20. Run the schema.sql mysql -h hostname.amazonaws.com -u user -p password < ./db/schema.sql
 
-21. Test again (use `heroku logs --tail` to confirm)
+21. Run the seed.sql mysql -h hostname.amazonaws.com -u user -p password < ./db/seeds.sql
+
+22. (re-deploy)
+
+23. Test again (use `heroku logs --tail` to confirm)
