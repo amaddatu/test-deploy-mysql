@@ -46,4 +46,4 @@
 
 20. (re-deploy)
 
-21. Test again
+21. Test again (use `heroku logs --tail` to confirm)
