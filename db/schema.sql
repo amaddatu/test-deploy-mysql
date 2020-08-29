@@ -1,7 +1,7 @@
 ### Schema
 
-CREATE DATABASE cat_db;
-USE cat_db;
+-- CREATE DATABASE cat_db;
+-- USE cat_db;
 
 CREATE TABLE cats
 (
