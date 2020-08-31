@@ -22,7 +22,7 @@
 
     - If it says "module not found", redo the install of the module so that the dependencies show in package.json. The other thing to check is if your imports are correctly staying inside the repo. Make the folder are relative to the repo folder.
 
-    - heroku tail will help with database issues and the other hard things to check on
+    - `heroku logs --tail` will help with database issues and the other hard things to check on
 
 10. Go to heroku
 
